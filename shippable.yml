@@ -25,7 +25,9 @@ after_script: echo $test2
 notifications:
      email:
          recipients:
-            # - vidyac.raghav@gmail.com
+          - vidya@shippable.com
+          - buildsampletest@gmail.com
+          # - vidyac.raghav@gmail.com
          on_success: always
          on_failure: always
      irc:
